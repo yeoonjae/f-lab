@@ -1,18 +1,17 @@
-package study.day03;
+package study.week02;
 
 import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Calendar;
 import java.util.Date;
 
 public class DateAndTime {
     public static void main(String[] args) {
 
         Date nowDate = new Date();
-        System.out.println(nowDate.getDay());
+        System.out.println(nowDate);
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy년 MM월 dd일");
         String formatDate = formatter.format(nowDate);
         System.out.println(nowDate); // Wed Aug 18 23:27:47 KST 2021

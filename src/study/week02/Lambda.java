@@ -1,6 +1,4 @@
-package study;
-
-import java.util.Arrays;
+package study.week02;
 
 public class Lambda {
     //    int noLambda(int a, int b){
