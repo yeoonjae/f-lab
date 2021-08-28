@@ -9,9 +9,5 @@ public class literal {
         System.out.println(str1 == str2); // 동일성 체크
         System.out.println(str1.equals(str2)); // 동등성 체크
 
-        final Integer int1 = Integer.valueOf(str1);
-        final Integer int2 = Integer.valueOf(str2);
-
-        System.out.println(int1 == int2);
     }
 }
